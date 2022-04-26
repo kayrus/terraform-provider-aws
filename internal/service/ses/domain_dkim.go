@@ -99,6 +99,6 @@ func resourceDomainDKIMRead(d *schema.ResourceData, meta interface{}) error {
 }
 
 func resourceDomainDKIMDelete(d *schema.ResourceData, meta interface{}) error {
-
+	// TODO: how to remove the key and disable signing?
 	return nil
 }

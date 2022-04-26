@@ -18,7 +18,7 @@ The following arguments are supported:
 
 * `domain` - (Required) Verified domain name to generate DKIM tokens for.
 * `origin` - (Optional) Indicates how DKIM was configured for the identity.
-  The possible values are: `AWS_SES`. Defaults to `AWS_SES`.
+  The possible values are: `AWS_SES` and `EXTERNAL`. Defaults to `AWS_SES`.
 
 ## Attributes Reference
 
